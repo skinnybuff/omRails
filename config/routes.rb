@@ -1,4 +1,5 @@
 OmRails::Application.routes.draw do
+  devise_for :users
   #get "static_pages/home"
   get "about" => "static_pages#about"
 
